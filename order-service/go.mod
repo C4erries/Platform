@@ -11,3 +11,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240604185151-ef581f913117 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 )
+
+require github.com/c4erries/platform/user-service v0.0.0

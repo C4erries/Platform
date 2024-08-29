@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	pb "github.com/c4erries/platform/user-service/proto"
+	pb "github.com/c4erries/platform/user-service/gen"
 )
 
 type UserService struct {
