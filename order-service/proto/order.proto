@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+service OrderService {
+  rpc GetOrder (GetOrderRequest) returns (GetOrderResponse);
+}
+
+message GetOrderRequest {
+  string id = 1;
+}
+
+message GetOrderResponse {
+  string id = 1;
+  string user_id = 2;
+  string item = 3;
+}
