@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	pb "example.com/user-service/proto"
+	pb "github.com/c4erries/platform/user-service/proto"
 )
 
 type UserService struct {

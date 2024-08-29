@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package proto;
+package order;
+
+option go_package = "github.com/c4erries/platfor/order-serivce/gen";
 
 service OrderService {
   rpc GetOrder (GetOrderRequest) returns (GetOrderResponse);

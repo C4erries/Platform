@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/c4erries/platform/order-service/proto"
-	userpb "github.com/c4erries/platform/user-service/proto"
+	pb "github.com/c4erries/platform/order-service/gen"
+	userpb "github.com/c4erries/platform/user-service/gen"
 )
 
 type OrderService struct {

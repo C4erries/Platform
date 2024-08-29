@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package user;
 
+
+option go_package = "github.com/c4erries/platfor/user-serivce/gen";
+
 service UserService {
   rpc GetUser (GetUserRequest) returns (GetUserResponse);
 }

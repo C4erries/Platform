@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
+	pb "github.com/c4erries/platform/order-service/gen"
 	"github.com/c4erries/platform/order-service/internal/service"
-	pb "github.com/c4erries/platform/order-service/proto"
-	userpb "github.com/c4erries/platform/user-service/proto"
+	userpb "github.com/c4erries/platform/user-service/gen"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
